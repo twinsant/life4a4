@@ -1,0 +1,20 @@
+[project]
+name = "life4a4"
+version = "0.1.0"
+description = "A simple CLI coding agent, like Claude Code but simpler"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+]
+
+[project.scripts]
+life4a4 = "life4a4.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
