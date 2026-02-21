@@ -1,5 +1,7 @@
 # life4a4
 
+[中文文档](README_CN.md)
+
 A simple CLI coding agent – like Claude Code, but smaller and written in Python.
 
 ## Features
